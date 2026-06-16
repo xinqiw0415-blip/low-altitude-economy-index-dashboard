@@ -1,0 +1,16 @@
+﻿target,feature_set,ensemble,mode,daily_top_fraction,observations,hit_rate,baseline_positive_share,lift,precision_at_threshold_0_5
+extreme_relative_5d,technical_global_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.05,1760,0.5653409090909091,0.5139262967774645,1.1000427739071457,0.5657142857142857
+extreme_relative_5d,technical_global_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.1,3520,0.5613636363636364,0.5139262967774645,1.0923037795178494,0.5610106230261269
+extreme_relative_5d,technical_global_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.15,5280,0.5630681818181819,0.5139262967774645,1.0956204913989764,0.5627281460134486
+extreme_relative_5d,technical_global_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.2,6539,0.5630830402202172,0.5139262967774645,1.0956494029416013,0.5628611588317975
+extreme_relative_5d,technical_global_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.3,10057,0.5558317589738491,0.5139262967774645,1.0815398286858438,0.5563146997929607
+volatility_jump_5d,technical_events,logistic+extra_trees,daily_top_positive,0.05,2640,0.43522727272727274,0.24010295614759608,1.8126693636363638,0.45107592367032073
+volatility_jump_5d,technical_events,logistic+extra_trees,daily_top_positive,0.1,5280,0.4077651515151515,0.24010295614759608,1.6982929242424243,0.4274777570866956
+volatility_jump_5d,technical_events,logistic+extra_trees,daily_top_positive,0.15,7920,0.3912878787878788,0.24010295614759608,1.6296670606060606,0.41535654126895005
+volatility_jump_5d,technical_events,logistic+extra_trees,daily_top_positive,0.2,10560,0.37528409090909093,0.24010295614759608,1.5630132045454548,0.40388120510346304
+volatility_jump_5d,technical_events,logistic+extra_trees,daily_top_positive,0.3,15840,0.35599747474747473,0.24010295614759608,1.4826867626262625,0.39002149899918453
+volatility_jump_5d,technical_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.05,2640,0.42916666666666664,0.24010295614759608,1.7874276666666666,0.4617737003058104
+volatility_jump_5d,technical_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.1,5280,0.4015151515151515,0.24010295614759608,1.6722624242424242,0.44206404054365356
+volatility_jump_5d,technical_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.15,7920,0.38825757575757575,0.24010295614759608,1.6170462121212121,0.4336981010621178
+volatility_jump_5d,technical_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.2,10560,0.37547348484848486,0.24010295614759608,1.5638020075757577,0.4269478469503725
+volatility_jump_5d,technical_events,logistic+hist_gradient_boosting+extra_trees,daily_top_positive,0.3,15840,0.35347222222222224,0.24010295614759608,1.472169388888889,0.41453703703703704

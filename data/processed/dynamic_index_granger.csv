@@ -1,0 +1,3 @@
+﻿caused,causing,test_statistic,p_value,df
+excess_return,sentiment_shock,18.766865789257817,0.004576024615491179,6
+sentiment_shock,excess_return,3.4500656250099166,0.7506009614448792,6

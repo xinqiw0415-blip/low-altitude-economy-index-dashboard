@@ -1,0 +1,16 @@
+﻿feature_set,fold,observations,auc
+technical,1,75,0.42712842712842713
+technical,2,56,0.356951871657754
+technical,3,43,0.5216450216450217
+technical,4,56,0.6424010217113666
+technical,5,101,0.7325396825396825
+technical_events,1,75,0.7474747474747475
+technical_events,2,56,0.6550802139037433
+technical_events,3,43,0.48917748917748916
+technical_events,4,56,0.6922094508301404
+technical_events,5,101,0.5091269841269841
+technical_global_events,1,75,0.7871572871572872
+technical_global_events,2,56,0.7072192513368984
+technical_global_events,3,43,0.4826839826839827
+technical_global_events,4,56,0.685823754789272
+technical_global_events,5,101,0.5011904761904762

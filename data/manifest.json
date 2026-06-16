@@ -1,0 +1,420 @@
+{
+  "generated_at": "2026-06-16T06:35:46.159309+00:00",
+  "files": [
+    {
+      "path": "data\\interim\\benchmark_daily.csv",
+      "bytes": 794398,
+      "sha256": "135549a862c1ddc2ca1fd1fffbb40576f6c246c5286cbabbf8aea4bfa0d98ccb"
+    },
+    {
+      "path": "data\\interim\\company_announcement_documents.csv",
+      "bytes": 32056365,
+      "sha256": "7850b7037ec3674b3728b2be693793e46578c4786ab9c4d51236c0c3d73b354f"
+    },
+    {
+      "path": "data\\interim\\company_announcements_metadata.csv",
+      "bytes": 11666860,
+      "sha256": "1d6cf3e0e2101b2017543a370fd934825e783c4375392ff5833622df8ad45619"
+    },
+    {
+      "path": "data\\interim\\company_event_annotation_sample.xlsx",
+      "bytes": 24050,
+      "sha256": "722d8a741ffddd25b6614a28f9db570b138867526c3cbd9946cf6c308ba832de"
+    },
+    {
+      "path": "data\\interim\\company_event_candidates.csv",
+      "bytes": 1503544,
+      "sha256": "1fe1368bb1dd4875c48af3b7b52c8f75b767d99c58db986ec5c049df11b6f758"
+    },
+    {
+      "path": "data\\interim\\company_llm_event_tasks.jsonl",
+      "bytes": 14339692,
+      "sha256": "2bcc1b17cc670579285f73fa208b91759499364ee4c6209982551fb3ca7da565"
+    },
+    {
+      "path": "data\\interim\\deepseek_company_debug.jsonl",
+      "bytes": 263,
+      "sha256": "43d681266da0d1ea1f8cbbf5bf5ea325a67c6aecb80b871c4c650c40d995a87c"
+    },
+    {
+      "path": "data\\interim\\deepseek_company_results.jsonl",
+      "bytes": 90263,
+      "sha256": "d0ef95b3a8abfd81e5e8585d46773642caa90948fdb8779936f17c48aaaa0553"
+    },
+    {
+      "path": "data\\interim\\deepseek_company_test_results.jsonl",
+      "bytes": 2055,
+      "sha256": "95f3288fe9d9133a8e21f8bd2bfa6cf223c2f452f41be03740a8de62488f1882"
+    },
+    {
+      "path": "data\\interim\\deepseek_event_review.xlsx",
+      "bytes": 64664,
+      "sha256": "49f5e0cae591c2efe2b79ac4a1295ff99dee319e138d2059ee53517070f2dfef"
+    },
+    {
+      "path": "data\\interim\\deepseek_policy_results.jsonl",
+      "bytes": 86887,
+      "sha256": "3f287dd163046e4ed7ab847495ed0915a93fff9c2dea06ae2f450c0bee279a0f"
+    },
+    {
+      "path": "data\\interim\\deepseek_policy_test_results.jsonl",
+      "bytes": 16349,
+      "sha256": "815ff2eec4ce597b6c94db115ce5179ad71f08de92dd999e98ad58b10611096b"
+    },
+    {
+      "path": "data\\interim\\event_annotation_template.xlsx",
+      "bytes": 12460,
+      "sha256": "6bc33e8b2a931cfd2d75e502938c90aa804f556842a40b37ab7cb89f65eb048f"
+    },
+    {
+      "path": "data\\interim\\human_annotation_A.xlsx",
+      "bytes": 98183,
+      "sha256": "749ec8f0277d53b751bd8ff16e8ed8a6aa43a1d624c2fe648550583e48a8af09"
+    },
+    {
+      "path": "data\\interim\\human_annotation_adjudication.xlsx",
+      "bytes": 74131,
+      "sha256": "5d1befaf4060089d9754fcfc3f1e9b01f545f7db6585db35f0ba30ef0549db5c"
+    },
+    {
+      "path": "data\\interim\\human_annotation_adjudication_filled.xlsx",
+      "bytes": 74141,
+      "sha256": "585ac5058feae10acf46dcd5cc51ca661985c8fb9051d68c39039881536f648e"
+    },
+    {
+      "path": "data\\interim\\human_annotation_B.xlsx",
+      "bytes": 98022,
+      "sha256": "acd4e319816ff98a7f116e77a699ada762f2cd5263b9b79c80af792573375a46"
+    },
+    {
+      "path": "data\\interim\\human_annotation_B_independent.xlsx",
+      "bytes": 97775,
+      "sha256": "0126b7b1c0c9ef6a0f90cbc17218ccae8dc68bdf58502d3ebb17788a6f42b0d4"
+    },
+    {
+      "path": "data\\interim\\human_annotation_disagreements.xlsx",
+      "bytes": 55965,
+      "sha256": "97ee34432115b02e07e4742f5ed4bb136642e090a6ba204ff5651c6e4254753b"
+    },
+    {
+      "path": "data\\interim\\llm_annotation_comparison_key.csv",
+      "bytes": 9502,
+      "sha256": "4d536c4915f56c773ba0b1a14d56aae6d6fc1de06f0b316f29490c8dc03d52ed"
+    },
+    {
+      "path": "data\\interim\\llm_event_tasks.jsonl",
+      "bytes": 372689,
+      "sha256": "238e2f0fa158a5a42d24b0666733a904b754a9fdaf8c9d4b2e4061ff66e8e110"
+    },
+    {
+      "path": "data\\interim\\market_daily.csv",
+      "bytes": 17603558,
+      "sha256": "9a684e92ad71fdf7b2f19f0cb402139547817248917558e2e4ea7f63eb53199d"
+    },
+    {
+      "path": "data\\interim\\model_human_disagreements.xlsx",
+      "bytes": 27173,
+      "sha256": "8ebc9860989fc280ff5474f6e18d0eeed679ee298f91024718fefdb52f6a7bcd"
+    },
+    {
+      "path": "data\\interim\\news_metadata.csv",
+      "bytes": 621697,
+      "sha256": "10fb9a540a51fa7b0487b9dc58e4b4b0d3250b6d23903142ff3e9edf991bb8e7"
+    },
+    {
+      "path": "data\\interim\\policy_documents.csv",
+      "bytes": 349996,
+      "sha256": "639c463e26b6531b84dbb1ad06468f833bcb820ac736f6b4e1e8001ce2df5258"
+    },
+    {
+      "path": "data\\interim\\policy_events_baseline.csv",
+      "bytes": 16889,
+      "sha256": "e0df4b5f7499fbbc31f1d54808b525ae90ff4eb4ab660df4cd7b7a785bee0dc3"
+    },
+    {
+      "path": "data\\processed\\baseline_event_study.csv",
+      "bytes": 8975,
+      "sha256": "6a0b81d55e17a74d7826d2c0597ba736f0f79bcc5552b7213f30e2c9db6d40ba"
+    },
+    {
+      "path": "data\\processed\\company_event_daily_features.csv",
+      "bytes": 58174,
+      "sha256": "0bd0acd82698ead5437789a0d39629f02d199b4b600ed11bbc48ee8d0d5c9055"
+    },
+    {
+      "path": "data\\processed\\company_event_study.csv",
+      "bytes": 42144,
+      "sha256": "53fe688f70630f97ea21e1824db55eda6e1d1175340b30a0073a51efc0a1df1f"
+    },
+    {
+      "path": "data\\processed\\company_events.csv",
+      "bytes": 78129,
+      "sha256": "be7e137b7d580e569463a997957426484024c23e28cf9db344b13ef6f49acf23"
+    },
+    {
+      "path": "data\\processed\\deepseek_company_event_study.csv",
+      "bytes": 8116,
+      "sha256": "2c1b920946d268f55ca635ad3195ee85897c3cf69f6f6898fd1cf0553884d0df"
+    },
+    {
+      "path": "data\\processed\\deepseek_company_events.csv",
+      "bytes": 62701,
+      "sha256": "515f098ef785df7ffa6269f8c07c60d3d3f7d5730b565489876e8c37552d7dd5"
+    },
+    {
+      "path": "data\\processed\\deepseek_event_daily_features.csv",
+      "bytes": 231864,
+      "sha256": "04df8b1f4e254223bc9b2030af5620aa2e6469a6bc96be96c0ec63968479162b"
+    },
+    {
+      "path": "data\\processed\\deepseek_policy_events.csv",
+      "bytes": 78206,
+      "sha256": "69c6137d1aee9e048a375b50e87c6fcd356868b51b22900b4aacfb04c9abaf4b"
+    },
+    {
+      "path": "data\\processed\\dynamic_index_alternative_correlations.csv",
+      "bytes": 138,
+      "sha256": "383dc417d6892c74944f884f60a7a959062514c4e0c282bbe677d5c1323cfea4"
+    },
+    {
+      "path": "data\\processed\\dynamic_index_granger.csv",
+      "bytes": 189,
+      "sha256": "3c2e995b241d2c6df0fc8ef1b740909700a16d1e4f152b7910f66ce9246c2c14"
+    },
+    {
+      "path": "data\\processed\\dynamic_index_half_life_sensitivity.csv",
+      "bytes": 913,
+      "sha256": "d017bd99b37986b14f2bb23c8422532cfdfd56767a889f5d46ff98e25484384b"
+    },
+    {
+      "path": "data\\processed\\dynamic_index_local_projections.csv",
+      "bytes": 2338,
+      "sha256": "e96aabe50e4d72fb667311cc1545ac82bd3b725be6bd199f01edee515277e27d"
+    },
+    {
+      "path": "data\\processed\\dynamic_index_placebo_event_study.csv",
+      "bytes": 458,
+      "sha256": "b8fb12da2134d4c9111609606a26fc88cc19252df29eabc2a4ef3acc03c8c51d"
+    },
+    {
+      "path": "data\\processed\\dynamic_index_quantile_regression.csv",
+      "bytes": 776,
+      "sha256": "ed26b3a6d0f7be6198f599c59db6ec37a71f414481efc7f7514abbf9c0b140dc"
+    },
+    {
+      "path": "data\\processed\\dynamic_index_shock_event_study.csv",
+      "bytes": 652,
+      "sha256": "70b100882e46452a5d834ad76533b5a6ae1ec85a736cf2aa397ee23e0d422362"
+    },
+    {
+      "path": "data\\processed\\dynamic_index_stationarity.csv",
+      "bytes": 309,
+      "sha256": "01ccd1eafeb4915d731de7165f0f086d7a94a05b1eb9f6b66241c01e953e20f1"
+    },
+    {
+      "path": "data\\processed\\dynamic_index_var_irf.csv",
+      "bytes": 633,
+      "sha256": "135fe7d57f6dd774d98f78f87ac9297f5329fdda4c4b3d489c1d7aaa89be54e9"
+    },
+    {
+      "path": "data\\processed\\dynamic_sentiment_diagnostics.csv",
+      "bytes": 244,
+      "sha256": "efe32762bfb933e471da99e8e55857a14d200fdbf649f0a2346572e1083f369b"
+    },
+    {
+      "path": "data\\processed\\dynamic_sentiment_index_daily.csv",
+      "bytes": 483553,
+      "sha256": "b8fb00ae162b787b92f9c05c9643b621f365b9e3acdc2935dc43e72f18565bfa"
+    },
+    {
+      "path": "data\\processed\\dynamic_sentiment_loadings.csv",
+      "bytes": 275,
+      "sha256": "6b610fa2495fd7dbd69f02510961ef07468abd7833ab06139edfef6d3daf199d"
+    },
+    {
+      "path": "data\\processed\\final_company_events_hybrid.csv",
+      "bytes": 63289,
+      "sha256": "b7ef2c7b6851dca9ddfbdc17bee1da0543581da007f9c88083b837d57736e66b"
+    },
+    {
+      "path": "data\\processed\\final_company_events_provisional.csv",
+      "bytes": 63289,
+      "sha256": "b7ef2c7b6851dca9ddfbdc17bee1da0543581da007f9c88083b837d57736e66b"
+    },
+    {
+      "path": "data\\processed\\final_policy_events_hybrid.csv",
+      "bytes": 81611,
+      "sha256": "89b444d94fec2d500649b36a3bf9ccd8f1a64679b5afd262af772239ff59fd4e"
+    },
+    {
+      "path": "data\\processed\\final_policy_events_provisional.csv",
+      "bytes": 81611,
+      "sha256": "89b444d94fec2d500649b36a3bf9ccd8f1a64679b5afd262af772239ff59fd4e"
+    },
+    {
+      "path": "data\\processed\\human_gold_adjudicated.csv",
+      "bytes": 256562,
+      "sha256": "322c536ffb80063fe47fc5b848674916a8718e2caa62d2db50c8608a5c4c3c33"
+    },
+    {
+      "path": "data\\processed\\human_labeled_sample.csv",
+      "bytes": 259546,
+      "sha256": "058dba83ac643bfbb3e6b27fea67a8df184d0cd01d168e45bbe2510e64282144"
+    },
+    {
+      "path": "data\\processed\\local_projection_baseline.csv",
+      "bytes": 1461,
+      "sha256": "0a6a23fcf56e7c64dd88f0c57ae9628d58c5bd74e5043961231c5b540150492a"
+    },
+    {
+      "path": "data\\processed\\low_altitude_index_daily.csv",
+      "bytes": 285009,
+      "sha256": "eae54841a4e34e0ea64329ec3e15b1e7484e08d76375ab2e094b5ac7288e4ed4"
+    },
+    {
+      "path": "data\\processed\\model_daily_dataset.csv",
+      "bytes": 1999771,
+      "sha256": "d4263f7227ceb30f6023be7ecf8d97a396bce80dd7ae114a670eb27afa5d9172"
+    },
+    {
+      "path": "data\\processed\\news_daily_features.csv",
+      "bytes": 65521,
+      "sha256": "922a5eb8985630214ac86c278b37848b04de1ee3d9ab68cd0e0e9ac5bc5bb603"
+    },
+    {
+      "path": "data\\processed\\news_fundamental_metadata.csv",
+      "bytes": 614143,
+      "sha256": "46799cfc57a5dc8752a482ee9b8a4dc2a7ee13e8b2142ff176291a972364d6c2"
+    },
+    {
+      "path": "data\\processed\\policy_climate_daily.csv",
+      "bytes": 218465,
+      "sha256": "a60be9b0206fc07b33224e03555063052445dec062fc40f09643071e3820e305"
+    },
+    {
+      "path": "data\\processed\\policy_event_daily_features.csv",
+      "bytes": 39827,
+      "sha256": "2f75e6006a63819084bf5da983f6a55920088606e671c802bed2b0f176c9205b"
+    },
+    {
+      "path": "data\\processed\\policy_events.csv",
+      "bytes": 17099,
+      "sha256": "d5ecd331d8344c7de5269559fe237dd4b0d18d1be7095e7a61af07fbb956ebb5"
+    },
+    {
+      "path": "data\\processed\\prediction_baseline_metrics.csv",
+      "bytes": 1011,
+      "sha256": "4468aaa7ffd7360de12b4a97b434c215cf855660e6b2a44c9c42335771f8adc4"
+    },
+    {
+      "path": "data\\processed\\provisional_final_event_daily_features.csv",
+      "bytes": 136538,
+      "sha256": "9d31ae9cba6620e12490e85d47a89408ef27f2c1bd9b39994a9249cd1669e589"
+    },
+    {
+      "path": "data\\processed\\quantile_regression_baseline.csv",
+      "bytes": 427,
+      "sha256": "7f450c1e2650a511fd20ce1b5696bfdb1793c88b3758a9006438c3ef8d895643"
+    },
+    {
+      "path": "data\\processed\\realtime_prediction_metrics.csv",
+      "bytes": 908,
+      "sha256": "0efbfc501258bd29634a697e086132d2f22e00e9eb2706e9a0604718e44ace84"
+    },
+    {
+      "path": "data\\processed\\realtime_prediction_oos.csv",
+      "bytes": 407991,
+      "sha256": "e17a0d11079e36d6b9f1165c89e2e41b1ac22f3fae89fc34759ffdbba8c4d270"
+    },
+    {
+      "path": "data\\processed\\realtime_prediction_permutation_importance.csv",
+      "bytes": 52074,
+      "sha256": "96d29d42d13120915fe7107defcb0cfc241c632226d8bc1425256a4821eac1f4"
+    },
+    {
+      "path": "data\\processed\\realtime_prediction_shap.csv",
+      "bytes": 1222,
+      "sha256": "def64ff710454a6ff9d9e9536af08052c2b21ada8f9596c83fb6189e6d0d7757"
+    },
+    {
+      "path": "data\\processed\\realtime_sentiment_index_daily.csv",
+      "bytes": 171098,
+      "sha256": "b6e6add30543d852dd1222b766d234f0303d12484bdc2cf0c535443943bc2158"
+    },
+    {
+      "path": "data\\processed\\realtime_sentiment_loadings.csv",
+      "bytes": 7283,
+      "sha256": "2cf56cbbe60cc32a11dd52f5c35ae3ebe674b90e3fab804bbcc936036fef6ccd"
+    },
+    {
+      "path": "data\\processed\\stock_panel_daily.csv",
+      "bytes": 127015639,
+      "sha256": "bb071f42416d213e16d1553de36eca7303698abc5e5eda4e400d1465fccd00f9"
+    },
+    {
+      "path": "data\\processed\\stock_panel_daily_top_precision.csv",
+      "bytes": 2867,
+      "sha256": "ef38698d3d6bb69cf5b7ae550cdabea7a19cf02f87e2d6ea53f2b60cbb31db6b"
+    },
+    {
+      "path": "data\\processed\\stock_panel_ensemble_metrics.csv",
+      "bytes": 1592,
+      "sha256": "c96c392cf020b75ce0ac68bd141640f5bc189d3c76b98196ba1e640dbabc1dd8"
+    },
+    {
+      "path": "data\\processed\\stock_panel_ensemble_oos.csv",
+      "bytes": 24791883,
+      "sha256": "cff47cde5253ce8ace4583fc40029ba57fe863bea2bb8817b5be931d24ce55df"
+    },
+    {
+      "path": "data\\processed\\stock_panel_event_daily.csv",
+      "bytes": 3125,
+      "sha256": "7976d8afa5efe1af0472895adfad318fe083bb81af56bbfd54d34a81f8192eef"
+    },
+    {
+      "path": "data\\processed\\stock_panel_event_fold_metrics.csv",
+      "bytes": 671,
+      "sha256": "2b6f6f2d9711a185892783647cc72f122dbad397f1c311f31a22c9c8474150f5"
+    },
+    {
+      "path": "data\\processed\\stock_panel_event_uplift_bootstrap.csv",
+      "bytes": 734,
+      "sha256": "e2c36f8872b1a579bcf61d936cb443f0583f0fb2ce29082640199b88cb495f9e"
+    },
+    {
+      "path": "data\\processed\\stock_panel_latest_high_confidence_signals.csv",
+      "bytes": 9952,
+      "sha256": "8d1b331d9deda17f6192da6d0d7b490cbc8fb618307fc5ac9ad48c26e8f37b23"
+    },
+    {
+      "path": "data\\processed\\stock_panel_latest_scores.csv",
+      "bytes": 7335,
+      "sha256": "315ba220e4854f2808b130629ec60411876e8d536c3197c693d48bf732324ebe"
+    },
+    {
+      "path": "data\\processed\\stock_panel_prediction_metrics.csv",
+      "bytes": 13100,
+      "sha256": "66499d24bc03b11ac7ed64000cab6edaedf2f1968b641ba46316321fd5f511b4"
+    },
+    {
+      "path": "data\\processed\\stock_panel_prediction_oos.csv",
+      "bytes": 177358165,
+      "sha256": "0b8b28884b6916149b41cc5fe079aa4b5b68f633e393b6f6d7b54ac1c11818b2"
+    },
+    {
+      "path": "data\\processed\\stock_panel_ranking_metrics.csv",
+      "bytes": 551,
+      "sha256": "b89a2fd5a6d983187fb26f9e29ed2e87993929164f5a2f8f792f799466096b48"
+    },
+    {
+      "path": "data\\processed\\stock_panel_selective_accuracy.csv",
+      "bytes": 4032,
+      "sha256": "1d11424c276319d663a66eb327a4804ba45fae8ca854422435c548bda0a1f188"
+    },
+    {
+      "path": "data\\processed\\var_irf_baseline.csv",
+      "bytes": 627,
+      "sha256": "f95bbb2a89b246f3f025336a150573ff0cee4cd369c857a8e673dedf9ce5fbd4"
+    }
+  ]
+}

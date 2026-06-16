@@ -1,0 +1,13 @@
+numpy>=1.26,<2
+pandas>=2.0,<3
+openpyxl>=3.1
+requests>=2.31
+beautifulsoup4>=4.12
+PyYAML>=6.0
+matplotlib>=3.8
+scikit-learn>=1.4
+scipy>=1.11,<1.14
+statsmodels>=0.14
+plotly>=5.20
+shap==0.46.0
+streamlit>=1.40

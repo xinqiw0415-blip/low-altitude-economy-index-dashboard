@@ -1,0 +1,1 @@
+{"task_id": "C-AN202012311445696507", "task_type": "company", "model": "deepseek-chat", "status": "failed", "error": "缺少字段：['direction', 'event_type', 'evidence_span', 'intensity', 'relevance', 'uncertainty']", "raw_content": "{\n  \"events\": []\n}"}

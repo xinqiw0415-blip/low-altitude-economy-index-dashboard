@@ -1,0 +1,4 @@
+﻿pair,correlation
+dynamic_vs_pca,0.9865682880705844
+dynamic_vs_equal_weight,0.97197596223841
+pca_vs_equal_weight,0.9828337900773964

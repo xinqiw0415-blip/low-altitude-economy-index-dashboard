@@ -1,0 +1,6 @@
+{
+  "method": "keyword density -> intensity-weighted daily shocks -> 20-trading-day EWMA -> PCA",
+  "explained_variance_ratio": 0.8691121741932244,
+  "documents": 17,
+  "warning": "This is a transparent lexical baseline, not the final LLM/dynamic-factor index."
+}

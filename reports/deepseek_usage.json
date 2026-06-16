@@ -1,0 +1,16 @@
+{
+  "successful_calls": 118,
+  "models": [
+    "deepseek-chat"
+  ],
+  "prompt_tokens": 286465,
+  "cached_input_tokens": 48896,
+  "uncached_input_tokens": 237569,
+  "completion_tokens": 36058,
+  "estimated_cost_usd": 0.043493,
+  "pricing_assumption_usd_per_million": {
+    "cached_input": 0.0028,
+    "uncached_input": 0.14,
+    "output": 0.28
+  }
+}

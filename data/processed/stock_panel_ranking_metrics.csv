@@ -1,0 +1,4 @@
+﻿target,feature_set,ensemble,selection_fraction,selected_observations,precision_at_top,baseline_positive_share,lift
+extreme_relative_5d,technical_global_events,logistic+hist_gradient_boosting+extra_trees,0.2,6539,0.5630830402202172,0.5139262967774645,1.0956494029416013
+volatility_jump_5d,technical_events,logistic+extra_trees,0.2,10560,0.37528409090909093,0.24010295614759608,1.5630132045454548
+volatility_jump_5d,technical_events,logistic+hist_gradient_boosting+extra_trees,0.2,10560,0.37547348484848486,0.24010295614759608,1.5638020075757577
