@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import pandas as pd
@@ -184,9 +185,8 @@ def style_figure(fig: go.Figure, height: int | None = None) -> go.Figure:
 def load_data() -> dict[str, pd.DataFrame]:
     model = pd.read_csv(DATA / "model_daily_dataset.csv", parse_dates=["trade_date"])
     universe = pd.read_csv(ROOT / "config" / "stock_universe.csv")
-    market = pd.read_csv(ROOT / "data" / "interim" / "market_daily.csv", usecols=["ts_code", "trade_date"])
-    announcement_docs = pd.read_csv(ROOT / "data" / "interim" / "company_announcement_documents.csv", usecols=["fetch_status"])
-    announcement_meta = pd.read_csv(ROOT / "data" / "interim" / "company_announcements_metadata.csv", usecols=["selected"])
+    summary_path = ROOT / "config" / "dashboard_summary.json"
+    summary = json.loads(summary_path.read_text(encoding="utf-8")) if summary_path.exists() else {}
     company = pd.read_csv(DATA / "final_company_events_hybrid.csv", parse_dates=["event_date"])
     policy = pd.read_csv(DATA / "final_policy_events_hybrid.csv", parse_dates=["event_date"])
     metrics = pd.read_csv(DATA / "realtime_prediction_metrics.csv")
@@ -202,8 +202,7 @@ def load_data() -> dict[str, pd.DataFrame]:
     selective_accuracy = pd.read_csv(DATA / "stock_panel_selective_accuracy.csv")
     latest_signals = pd.read_csv(DATA / "stock_panel_latest_high_confidence_signals.csv", parse_dates=["trade_date"])
     return {
-        "universe": universe, "market": market,
-        "announcement_docs": announcement_docs, "announcement_meta": announcement_meta,
+        "universe": universe, "summary": summary,
         "model": model, "company": company, "policy": policy, "metrics": metrics,
         "shap": shap, "quantile": quantile, "lp": lp, "irf": irf, "placebo": placebo,
         "panel_metrics": panel_metrics,
@@ -218,10 +217,11 @@ def overview(data: dict[str, pd.DataFrame]) -> None:
     previous = model.iloc[-2]
     accepted_company = data["company"]["accepted"].astype(bool).sum()
     accepted_policy = data["policy"]["accepted"].astype(bool).sum()
-    stock_count = int((data["universe"]["include"].astype(str) == "1").sum())
-    market_rows = len(data["market"])
-    parsed_docs = int((data["announcement_docs"]["fetch_status"] == "ok").sum())
-    selected_docs = int(data["announcement_meta"]["selected"].sum())
+    summary = data["summary"]
+    stock_count = int(summary.get("stock_count") or (data["universe"]["include"].astype(str) == "1").sum())
+    market_rows = int(summary.get("market_rows") or 0)
+    parsed_docs = int(summary.get("parsed_docs") or 0)
+    selected_docs = int(summary.get("selected_docs") or 0)
     top5 = data["top_precision"][
         (data["top_precision"]["target"] == "volatility_jump_5d")
         & (data["top_precision"]["daily_top_fraction"].round(2) == 0.05)
