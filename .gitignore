@@ -12,6 +12,10 @@ __pycache__/
 data/raw/**/*.html
 data/raw/**/*.pdf
 data/raw/
+data/interim/company_announcement_documents.csv
+data/interim/company_announcements_metadata.csv
+data/interim/company_llm_event_tasks.jsonl
+data/interim/market_daily.csv
 data/raw/announcements/pdf/
 data/raw/announcements/text/
 data/processed/stock_panel_prediction_oos.csv
